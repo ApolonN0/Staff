@@ -1,0 +1,185 @@
+.gds_list{
+    list-style: none;
+    border: 1px solid #880000;
+}
+.gds__text{
+    margin-left: 500px;
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+}
+.empty_basket{
+    width: 50%;
+    margin-left: 250px;
+}
+.gds__item{
+    align-items: center;
+    border: 1px solid #880000;
+}
+.Tank{
+    width: 450px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.Gruz{
+    width: 500px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.Tayga{
+    width: 460px;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+.product__buy {
+    background-color: #ffa742;
+    font-style: none;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 3px;
+}
+body {
+    background-color: #ffc27c;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+main {
+    flex: 1 1 auto;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo__list {
+    align-items: center;
+    display: flex;
+    transform: translateX(-70%) scale(0.1);
+    position: relative;
+    z-index: -1;
+    transition: all 0.1s ease;
+    list-style: none;
+}
+.logo__btn {
+    height: 50px;
+    width: 100px;
+    background-color: #ffa742;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0xp 3xp 3xp  #ffa742;
+}
+.icon {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+.icon__2 {
+    height: 45px;
+    width: 45px;
+    padding: 5px;
+}
+.logo_back {
+    transform: translatex(0) scale(1);
+    z-index: 1;
+}
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.foot {
+    background-color: #ffa742;
+    border: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 100px;
+
+}
+.header__item {
+    list-style: none;
+}
+.burger__line {
+    width: 30px;
+    height: 5px;
+    background: white;
+    margin: 5px;
+}
+.burger {
+    display: none;
+}
+.video {
+    position: relative;
+}
+.video__content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+    padding: 25px;
+}
+.vbutton1{
+    background: none;
+    border: 0;
+}
+.vbutton2{
+    background: none;
+    border: 0;
+}
+.vbutton3{
+    background: none;
+    border: 0;
+}
+.vbutton4{
+    background: none;
+    border: 0;
+}
+.basket__container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: Z;
+    padding-left: 25px;
+}
+.basket_hide{
+    display: none;
+}
+
+#Ultrakill{
+    width: 100%;
+}
+@media screen and (max-width: 960px){
+    .header__list {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        right: 0;
+        background: #ffa742;
+        top: 0;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        z-index: 3;
+        padding: 0;
+        margin: 0;
+        width: 300px;
+        transform: translateX(100%);
+        transition: all 0.5s ease;
+    }
+    .header__item {
+        margin: auto 0;
+    }
+    .burger {
+        display: block;
+    }
+    body {
+        overflow-x: hidden;
+    }
+    .hide {
+        transform: translateX(0%);
+    }
+}

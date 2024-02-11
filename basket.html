@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Гайки, шестерни</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/itc-slider.css">
+    <link rel="stylesheet" href="css/animated-accordion.css">
+</head>
+
+<body>
+    <header>
+        <div class="burger" onclick="burger()">
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+            <div class="burger__line"></div>
+        </div>
+        <div class="container">
+        <div class="logo">
+            <button onclick="logo_btn()" class="logo__btn">Гайки, шестерни</button>
+            <div class="logo__menu">
+                <ul class="logo__list">
+                    <li class="logo__item"><img src="img/sun.png" alt="" onclick="dark()" class="icon"></li>
+                    <li class="logo__item"><img src="img/sun_lith.png" alt="" onclick="light()" class="icon__2"></li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+        <ul class="header__list">
+            <li class="header__item"><a href="" class="header__link">a</a></li>
+            <li class="header__item"><a href="" class="header__link">b</a></li>
+            <li class="header__item"><a href="" class="header__link">c</a></li>
+            <li class="header__item"><a href="" class="header__link">d</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+    <main>
+        <section class="gds">
+            <div class="container">
+                <ul class="gds_list">
+                    <li class="gds_item">
+                        <p class="gds__text">
+                            Корзина пуста
+                            
+                        </p>
+                        <p><img src="img/empty-cart.png" class="empty_basket" alt=""></p>
+                    </li>
+                </ul>
+                <button class="update" onclick="spawner()">Обновить</button>
+            </div>
+        </section>
+        
+    </main>
+    <footer class="foot">
+        Chukcha
+    </footer>
+    <script src="js/basket.js"></script>
+    <script src="js/logo_menu.js"></script>
+    <script src="js/animated-accordion.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/burger.js"></script>
+    <script src="js/video.js"></script>
+    <script src="js/shop-btn.js"></script>
+</body>
+
+</html>
